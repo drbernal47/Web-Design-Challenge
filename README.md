@@ -5,7 +5,7 @@ The data and analysis from this website comes from the group project I worked on
 
 The project sought to answer the question: does the internet make us happy? The data used was from various' countries and included internet usage (percentage of population) in 2019 compared to the World Happiness Report findings from 2019.
 
-The landing page (https://drbernal47.github.io/Web-Design-Challenge/dataset.html) gives you a brief description of the project, has a responsive navbar and contents, and includes a sidebar that allows you to preview the four data visualizations found in the project.
+The landing page (https://drbernal47.github.io/Web-Design-Challenge/index.html) gives you a brief description of the project, has a responsive navbar and contents, and includes a sidebar that allows you to preview the four data visualizations found in the project.
 
 Clicking on any of the data visualizations brings you to a deeper analysis of that data (each on a separate page). Each page is responsive and also has the same navbar and sidebar with previews.
 
