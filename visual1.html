@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Data Visualization</title>
+  <title>Happiness Score</title>
 
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -42,57 +42,56 @@
         </div>
     </nav>
 
+
     <div class="container">
-      <div class="row">
-        <div class="col-md-1">  
+        <div class="row">
+          <div class="col-md-1">  
+          </div>
+          <div class="col-md-6">
+            <h1>Happiness Score</h1>
+            <img src="assets/score_regress.png">
+            <br>
+            <br>
+            <p>
+              When looking at the overall happiness score of countries, there was a strong correlation with internet usage. As the 
+              percentage of internet users increased in a country, the country's happiness score increased. It is important 
+              to note that Happiness Scores consisted of several subscores that were added together to achieve this happiness score.
+              In other parts of our data analysis we break down the various subscores.
+           </p>
+          </div>
+
+          
+
+          <div class="col-md-4">
+            <h2>Visualizations</h2>
+            <a href="visual1.html">
+              <img src="assets/score_regress.png" width="200px;">
+            </a>
+            <a href="visual2.html">
+              <img src="assets/GDP_regess.png" width="200px;">
+            </a>
+            <a href="visual3.html">
+              <img src="assets/health_regess.png" width="200px;">
+            </a>
+            <a href="visual4.html">
+              <img src="assets/social_regess.png" width="200px;">
+            </a>
+          </div>
+          <div class="col-md-1">  
+          </div>
+  
+          
         </div>
-        <div class="col-md-6">
-          <h1>Summary: Happiness vs. Internet Users</h1>
-          <img src="assets/score_regress.png" width="500px;">
-          <p>
-            The purpose of this group project was to analyze data from the World Happiness Report and compare it to data
-            about internet usage in various countries around the world. Our group first cleaned the data from multiple csv files,
-            then pulled all the data together in a single dataframe.
-          </p>
-    
-          <p>
-            Analyzing our data, we found multiple positive and significant correlations between various subscores of the World Happiness 
-            Score each country received and the percentage of citizens with internet access. While we were not able to determine causality, 
-            we did find several correlations that were thought-provoking and would make for interesting projects in the future.
-         </p>
-        </div>
-
-
-
-        <div class="col-md-4">
-          <h2>Visualizations</h2>
-          <a href="visual1.html">
-            <img src="assets/score_regress.png" width="200px;">
-          </a>
-          <a href="visual2.html">
-            <img src="assets/GDP_regess.png" width="200px;">
-          </a>
-          <a href="visual3.html">
-            <img src="assets/health_regess.png" width="200px;">
-          </a>
-          <a href="visual4.html">
-            <img src="assets/social_regess.png" width="200px;">
-          </a>
-        </div>
-        <div class="col-md-1">  
-        </div>
-
-
+  
+  
       </div>
 
 
-    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  
-  
+
 </body>
 
 </html>
